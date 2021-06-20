@@ -1,0 +1,18 @@
+{
+  "env": "development",
+  "url": "http://localhost:8080",
+  "port": ":8080",
+  "versioningScheme": "calver",
+  "versioningFormat": "yy.mm.micro.dev",
+  "ssr": true,
+  "ssrPort": ":9202",
+  "devopsLanguage": "",
+  "releaseRecipients": "",
+  "awsSesSender": "",
+  "awsSesRegion": "",
+  "awsSesAccessKeyId": "",
+  "awsSesSecretAccessKey": "",
+  "gmailSender": "",
+  "gcloudProject": "",
+  "gmailApplicationCredentials": ""
+}

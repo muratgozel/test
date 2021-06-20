@@ -1,0 +1,23 @@
+.wrapper {
+  display: block;
+  height: 32px;
+  width: 64px;
+  background-color: #ddd;
+  border-radius: 16px;
+  padding: 2px;
+  cursor: pointer;
+}
+.wrapper[data-checked="yes"] {
+  background-color: #00a900;
+}
+.circle {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.wrapper[data-checked="yes"] .circle {
+  transform: translateX(32px);
+}

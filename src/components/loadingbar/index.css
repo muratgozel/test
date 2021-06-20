@@ -1,0 +1,40 @@
+@keyframes loadingbarAnim {
+  0% {
+    left: -100%;
+  }
+  60% {
+    opacity: 1;
+    left: 0;
+  }
+  100% {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.loadingbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  display: block;
+  overflow: hidden;
+  z-index: 100001;
+}
+
+.loadingbar > div {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  opacity: 0;
+  height: 4px;
+  width: 100%;
+  background-color: #00a900;
+  animation: loadingbarAnim 1.2s ease-in-out infinite;
+}
+
+.loadingbar.loadingbar-disabled {
+  animation: none;
+  display: none;
+}

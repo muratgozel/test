@@ -1,0 +1,9 @@
+<div class="{{css.breadcrumb}}">
+{% for item in items %}
+  <a href="{{item.path}}" title="{{item.title}}">{{item.title}}</a>
+
+  {% if not loop.last %}
+    <span>⏤</span>
+  {% endif %}
+{% endfor %}
+</div>

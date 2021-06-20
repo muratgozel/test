@@ -1,0 +1,8 @@
+{% if msg %}
+<div class="{{css.errorbar}}">
+  <div>
+    {{msg}}
+    <a href="#" data-frond-service="click:close" title="_('Close')">✕</a>
+  </div>
+</div>
+{% endif %}

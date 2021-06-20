@@ -1,0 +1,28 @@
+.breadcrumb a {
+  padding: 8px 12px;
+  color: #999;
+  font-size: 12px;
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  color: #333;
+}
+.breadcrumb a:first-child {
+  padding-left: 0;
+}
+.breadcrumb span {
+  color: #999;
+}
+
+@media screen and (max-width: 375px) {
+  .breadcrumb {
+    display: flex;
+    flex-direction: column;
+  }
+  .breadcrumb a {
+    padding: 2px 0;
+  }
+  .breadcrumb span {
+    display: none;
+  }
+}

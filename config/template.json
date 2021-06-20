@@ -1,0 +1,18 @@
+{
+  "env": "",
+  "url": "",
+  "port": "",
+  "versioningScheme": "",
+  "versioningFormat": "",
+  "ssr": true,
+  "ssrPort": ":9202",
+  "devopsLanguage": "",
+  "releaseRecipients": "",
+  "awsSesSender": "",
+  "awsSesRegion": "",
+  "awsSesAccessKeyId": "",
+  "awsSesSecretAccessKey": "",
+  "gmailSender": "",
+  "gcloudProject": "",
+  "gmailApplicationCredentials": ""
+}

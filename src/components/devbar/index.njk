@@ -1,0 +1,8 @@
+{% if show and frond.host != "localhost" and frond.env != "production"  %}
+<div class="{{css.banner}}">
+  <div>
+    {{ frond.name }} {{ frond.version }}
+    <a href="#" data-frond-service="click:close" title="_('Close')">✕</a>
+  </div>
+</div>
+{% endif %}

@@ -1,0 +1,24 @@
+.errorbar {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  text-align: center;
+  background-color: #ed1c24;
+  color: #fff;
+  z-index: 9999;
+}
+.errorbar div {
+  padding: 8px;
+}
+.errorbar a {
+  padding-right: 8px;
+  font-size: 24px;
+  line-height: 1;
+  color: white;
+  text-decoration: none;
+  float: right;
+  color: #fff;
+}

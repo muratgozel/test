@@ -1,0 +1,29 @@
+html, body {
+  background-color: #ffffff;
+}
+
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+a:hover {
+
+}
+a {
+  display: inline-block;
+  transition: 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+a:active {
+  transform: scale(0.98);
+}
+
+input, select, textarea {
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.banner {
+  text-align: center;
+  background-color: #333;
+  color: #ddd;
+}
+.banner div {
+  padding: 8px;
+}
+.banner a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  color: #ddd;
+}
