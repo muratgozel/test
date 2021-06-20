@@ -1,3 +1,5 @@
+console.log('Test.')
+
 require('./stylesheets')
 
 const {init, externals, eventEmitter, render, config, asset, component, meta,
