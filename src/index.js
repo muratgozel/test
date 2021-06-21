@@ -1,4 +1,4 @@
-console.log('Test test test test')
+console.log('Test test test test test')
 
 require('./stylesheets')
 
